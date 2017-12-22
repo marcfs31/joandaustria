@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>      <!--Doble declaracio de la versió y la codificació-->
+
+Un element sense etiquetes                  <!-- <ERROR nr="1">Inclou un element sense estar envoltat per
+                                                   cap etiqueta</ERROR> -->
+<?xml version="1.0" encoding="ASCII" ?>     <!-- <ERROR nr="2">Inclou una declaració XML que no
+                                                   és el primer que apareix al document </ERROR> -->
+<<etiqueta>>                                       <!-- Etiqueta d'obertura mal formada-->
+
+<</etiqueta>>                                      <!--Etiqueta de tancament mal formada-->
+
+  acta68badformed.xml:65: parser error : Opening and ending tag mismatch: temespendents line 64 and acta <!--Text que conte una etiqueta y no esta tancat dins d'un CDATA-->
+</acta>
+     ^
+acta68badformed.xml:67: parser error : Premature end of data in tag acta line 1
+
+^
+
+<--Comentari-->                                    <!--Comentari mal fet-->
+
+<root1>
+<root2>
+                                                  <!--Més d'una arrel-->
+</root1>
+</root2>
+
+<etiqueta>                                       <!--Etiqueta sense tancar-->
+
+<etiqueta/>                                      <!--Etiqueta mal tancada-->
+
+<etiqueta/                                      <!--Etiqueta mal tancada-->  <!--Etiqueta mal tancada causa que el comentari no funcioni bé-->
+
+  妹妹背著洋娃娃
+  走到花園來看花
+  娃娃哭了叫媽媽
+  树上小鸟笑哈哈                                  <!--Text en chino amb codificacio utf-8-->

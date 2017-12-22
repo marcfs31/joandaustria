@@ -1,0 +1,25 @@
+<esports>
+	<perEquip>
+		<basquet>
+			<nba>
+				<equipos>
+					<equipo>Lakers</equipo>
+				</equipos>
+			</nba>
+		</basquet>
+		<futbol>
+			<LFP>
+				<equipos>
+					Barça
+					Madrid
+				</equipos>
+			</LFP>
+		</futbol>
+	</perEquip>
+	<individual>
+		<surf>
+		</surf>
+		<esgrima>
+		</esgrima>
+	</individual>
+<esports/>

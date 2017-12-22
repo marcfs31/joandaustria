@@ -1,0 +1,12 @@
+<esports>
+	<equip>
+		<basquet>
+		</basquet>
+		<waterpolo>
+		</waterpolo>
+	</equip>
+	<individual>
+		<surf>
+		</surf>
+	</individual>
+<esports/>

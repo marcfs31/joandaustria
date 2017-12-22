@@ -1,0 +1,41 @@
+<exercici títol="A quí selecciona" email="cf17marc.fors@iesjoandaustria.org">
+    <selector nr="1">
+        <selecciona>
+            class="revelacio"
+        </selecciona>
+        <aspecte>
+            Estil de lletra: Tahoma
+            Alinea el text a l'esquerra
+        </aspecte>
+    </selector>
+    <selector nr="2">
+        <selecciona>
+            Etiqueta director filla de pelicula
+        </selecciona>
+        <aspecte>
+            Color de fons: vermell
+            Tamany de lletra: 12 punts
+            Borde: 1 pixel puntejat en color negre
+            Color: Blau
+        </aspecte>
+    </selector>
+    <selector nr="3">
+        <selecciona>
+            Etiqueta nom
+        </selecciona>
+        <aspecte>
+            Amplada: 100%
+            Altura: 20 pixels
+            Amplada de la lletra: Negreta
+            Es mostrara en forma de bloc
+        </aspecte>
+    </selector>
+    <selector nr="4">
+        <selecciona>
+            Etiquetes: pelicula i nom
+        </selecciona>
+        <aspecte>
+            Ocultara l'element sense eliminarlo
+        </aspecte>
+    </selector>
+</exercici>

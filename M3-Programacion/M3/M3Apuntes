@@ -1,0 +1,50 @@
+    ++++++++++++++++
+    +   [Python]   +
+    ++++++++++++++++
+
+Pedir texto al usuario
+----------------------
+Con -input()- o -raw_input()- podemos pedir que introduzcan
+un texto, el programa se detendra hasta pulsar |intro|.
+
+Ejemplo:
+entrada = raw_input("Escrive tu texto: ") # Mostraria: Escrive tu texto: _
+--
+
+Si queremos cambiar el tipo de variable se hace colocandolo antes del -input()-
+o el -raw_input-, de la siguiente manera:
+entrada = int(raw_input("Escrive tu entero: ")) 
+--
+
+Con esto en vez de texto recogeriamos numeros enteros.
+
+
+    +++++++++++++++
+    +   [Java]   +
+    +++++++++++++++
+
+Pedir texto al usuario
+----------------------
+
+ /*public class Practica5 {
+	
+	public static void main (String[] args) throws IOException {
+                                            ------------------
+		String inputA;
+		String inputB;
+		float a;
+		float b;
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        ----------------------------------------------------------------------------
+		System.out.println("Escriu dos nombres que vulguis sumar");
+		System.out.print("Escriu el primer nombre: ");
+		inputA = reader.readLine();
+                 ----------------
+		System.out.print("Escriu el segon nombre: ");
+		inputB = reader.readLine();
+		a = Float.parseFloat(inputA);
+            ------------------------
+		b = Float.parseFloat(inputB);
+		System.out.println("El resultat es "+(a + b));
+	}
+}*/

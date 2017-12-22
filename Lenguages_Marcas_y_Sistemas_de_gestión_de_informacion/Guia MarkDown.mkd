@@ -1,0 +1,44 @@
+#Guia MarkDown
+
+##Elementos de bloque
+
+***
+
+###Párrafos y saltos de línea
+
+Para hacer un salto de línea hay que darle al espacio dos veces y enter.
+
+~~~
+Texto de
+ejemplo
+.
+~~~
+
+Cada linea tiene dos espacios al final.
+
+***
+
+###Encabezados
+
+Para hacer encabezados se usan las \#.
+
+~~~
+# Encabezado 1
+## Encabezado 2
+### Encabezado 3
+#### Encabezado 4
+##### Encabezado 5
+###### Encabezado 6
+~~~~
+
+***
+
+###Citas
+
+> Esto es una cita
+
+***
+
+###Listas
+
+Para hacer una lista se pueden usar * asteriscos, - guiones

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercici nom="Valida l'acta de veïns">
+    <error>
+  <![CDATA[
+  acta68badformed.xml:65: parser error : Opening and ending tag mismatch: temespendents line 64 and acta
+</acta>
+     ^
+acta68badformed.xml:67: parser error : Premature end of data in tag acta line 1
+
+^
+  ]]>
+    </error>
+    <resultat>
+      <![CDATA[
+      DOCUMENT
+version=1.0
+URL=acta68badformed.xml
+standalone=true
+ELEMENT acta
+  TEXT compact
+    content=
+  ELEMENT sessio
+    TEXT compact
+      content= 68
+  TEXT compact
+    content=
+  ELEMENT comunitat
+    TEXT
+      content= Junta de propietaris del Carrer de la S...
+  TEXT compact
+    content=
+  ELEMENT data
+    TEXT
+      content= 21 de setembre de 2016
+  TEXT compact
+    content=
+  ELEMENT inici
+    TEXT compact
+      content=20
+  TEXT compact
+    content=
+  ELEMENT acabament
+    TEXT compact
+      content=23:45
+  TEXT compact
+    content=
+  ELEMENT lloc
+    TEXT
+      content=el pati de la Sra. Encarna
+  TEXT compact
+    content=
+  ELEMENT president
+    TEXT
+      content=Sr. Llu#C3#ADs Bendito i Sig#C3#BCenza
+  TEXT compact
+    content=
+  ELEMENT vicepresident
+    TEXT
+      content=Sra. Ramona Gonz#C3#A1lez Remolona
+  TEXT compact
+    content=
+  ELEMENT administrador
+    TEXT
+      content=Sr. Romualdo Malandr#C3#ADn Segura
+  TEXT compact
+    content=
+  ELEMENT assistents
+    TEXT compact
+      content=
+    ELEMENT assistent
+      TEXT compact
+        content=
+      ELEMENT pis
+        TEXT compact
+          content=1er 1ra
+      TEXT compact
+        content=
+      ELEMENT ve#C3#AD
+        TEXT
+          content=Sra. Josefa Ramos Granados
+      TEXT compact
+        content=
+    TEXT compact
+      content=
+    ELEMENT assistent
+      TEXT compact
+        content=
+      ELEMENT pis
+        TEXT compact
+          content=1er 2na
+      TEXT compact
+        content=
+      ELEMENT ve#C3#AD
+        TEXT
+          content=Sr. Vicent Carallot i Gripau
+      TEXT compact
+        content=
+    TEXT compact
+      content=
+    ELEMENT assistent
+      TEXT compact
+        content=
+      ELEMENT pis
+        TEXT compact
+          content=2on 1ra
+      TEXT compact
+        content=
+      ELEMENT ve#C3#AD
+        TEXT
+          content=Sr. Llu#C3#ADs Benito i Sig#C3#BCenza
+      TEXT compact
+        content=
+    TEXT compact
+      content=
+    ELEMENT assistent
+      TEXT compact
+        content=
+      ELEMENT pis
+        TEXT compact
+          content=2on 2na
+      TEXT compact
+        content=
+      ELEMENT ve#C3#AD
+        TEXT
+          content=Sra. Ramona Gonz#C3#A1lez Remolona
+      TEXT compact
+        content=
+      ELEMENT ve#C3#AD
+        TEXT
+          content=Sr. Carles Valdaura Rony#C3#B3s
+      TEXT compact
+        content=
+    TEXT compact
+      content=
+    ELEMENT assistent
+      TEXT compact
+        content=
+      ELEMENT pis
+        TEXT compact
+          content=3er 1ra
+      TEXT compact
+        content=
+      ELEMENT ve#C3#AD
+        TEXT
+          content=Sr. Lam Kam Chuen
+      TEXT compact
+        content=
+    TEXT compact
+      content=
+  TEXT compact
+    content=
+  ELEMENT noassistents
+    TEXT compact
+      content=
+    ELEMENT pis
+      TEXT compact
+        content=3er 2na
+    TEXT compact
+      content=
+    ELEMENT pis
+      TEXT compact
+        content=4rt 1ra
+    TEXT compact
+      content=
+    ELEMENT pis
+      TEXT compact
+        content=4rt 2na
+    TEXT compact
+      content=
+  TEXT compact
+    content=
+  ELEMENT ordredeldia
+    TEXT compact
+      content=
+    ELEMENT punt
+      TEXT
+        content=1. Lectura i aprovaci#C3#B3, si escau, de l'...
+    TEXT compact
+      content=
+    ELEMENT punt
+      TEXT
+        content=2. Estat de pagament de les quotes del p...
+    TEXT compact
+      content=
+    ELEMENT punt
+      TEXT
+        content=3. Torn obert de paraula
+    TEXT compact
+      content=
+    ELEMENT punt
+      TEXT
+        content=4. Horari de reg i utilitzaci#C3#B3 dels esp...
+    TEXT compact
+      content=
+  TEXT compact
+    content=
+  ELEMENT desenvolupament
+    TEXT compact
+      content=
+    ELEMENT entrada
+      TEXT compact
+        content=
+      ELEMENT paragraf
+        TEXT
+          content=Punt 1. La sra. vicepresidenta llegeix l...
+      TEXT compact
+        content=
+    TEXT compact
+      content=
+    ELEMENT entrada
+      TEXT compact
+        content=
+      ELEMENT paragraf
+        TEXT
+          content=Punt 2. El sr. president passa la paraul...
+      TEXT compact
+        content=
+      ELEMENT paragraf
+        TEXT
+          content=El sr. Vicent Carallot exposa els proble...
+      TEXT compact
+        content=
+    TEXT compact
+      content=
+    ELEMENT entrada
+      TEXT compact
+        content=
+      ELEMENT paragraf
+        TEXT
+          content=El sr. Chin Pun indica que l#E2#80#99ascensor ...
+      TEXT compact
+        content=
+    TEXT compact
+      content=
+    ELEMENT entrada
+      TEXT compact
+        content=
+      ELEMENT paragraf
+        TEXT
+          content=Punt 4. Queda tractat amb el punt 2.
+      TEXT compact
+        content=
+    TEXT compact
+      content=
+    ELEMENT entrada
+      TEXT compact
+        content=
+      ELEMENT paragraf
+        TEXT
+          content=Punt 3. No queda temps per desenvolupar ...
+      TEXT compact
+        content=
+    TEXT compact
+      content=
+  TEXT compact
+    content=
+  ELEMENT acords
+    TEXT compact
+      content=
+  TEXT compact
+    content=
+  ELEMENT temespendents
+    TEXT compact
+      content=
+  TEXT compact
+    content=
+      ]]>
+    </resultat>
+</exercici>

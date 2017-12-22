@@ -1,0 +1,5 @@
+<exercici títol="Avantatges dels CSS" email="cf17marc.fors@iesjoandaustria.org">
+    <avantatge nr="1">Permet donar estils a totes les etiquetes d'un mateix tipo facilment</avantatge>
+    <avantatge nr="2">Al tindre la possibilitat de enllaçar un css extern el codi html queda net</avantatge>
+    <avantatge nr="3">Mitjançant ids pots donar un estil unic a algo dins d'una web</avantatge>
+</exercici>

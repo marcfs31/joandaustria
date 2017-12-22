@@ -1,0 +1,261 @@
+![Image](https://discuss.atom.io/uploads/github_atom/487/cda7a1c2ac02fd3d.png)
+
+~~~
+Por:
+Marc Fors Soler
+Luis Miguel Caldeiro
+~~~
+## Tabla de contenidos
+
+-   Qué es
+-   Instalación
+-   Cómo empezar un proyecto
+-   Depurar
+    -   Cómo acceder
+    -   Controles
+    -   Ejemplo básico de debugar
+-   MarkDown y Atom
+    -   Instalación de plugins
+        -   language-markdown
+        -   markdown-pdf
+        -   markdown-preview
+        -   markdown-preview-plus
+-   Control de versiones
+    -   Cómo usar git-plus
+-   Linters
+    -   Qué es un linter
+    -   Instalación
+    -   Ventajas de usar un linter
+
+## Qué es
+
+~~~
+Atom es un IDE el cual dispone de multitud de plugins que sirven tanto para
+previsualizar MarkDown o RestructuredText hasta autocorreción de sintaxis
+en cualquier lenguaje.
+~~~
+
+## Instalación
+
+Ir a su [página web](https://atom.io/) y descargar el .deb abrir una terminal y
+ir al directorio donde lo has descargado.
+
+Instalar Atom :
+~~~
+sudo dpkg -i atom-amd64.deb
+~~~
+Instalar dependencias de Atom por si no estan :
+~~~
+sudo apt-get -f install
+~~~
+
+## Cómo empezar un proyecto
+
+Atom considera que todo archivo que esta dentro de la carpeta que abras es
+parte del proyecto. Por lo tanto para crear un proyecto nuevo solo hace falta
+crear una carpeta y abrirla desde el menú en File/Add Project Folder.
+
+## Depurar
+
+Depurar o debugar permite ejecutar el código por partes para encontrar fallos
+fácilmente o probar el código.
+
+### Cómo acceder
+
+Para acceder al debugador hay que hacer la siguiente combinación de teclas:
+~~~
+Alt + R
+~~~
+
+Empezar a debugar:
+
+~~~
+run
+~~~
+
+Parar de debugar:
+
+~~~
+stop
+~~~
+
+Limpiar pantalla:
+
+~~~
+clear
+~~~
+
+Ejecuta la siguiente linea pero no ejecuta funciones:
+
+~~~
+next
+~~~
+
+Ejecuta la siguiente linea incluso funciones:
+
+~~~
+step
+~~~
+
+Saltar la ejecución de un trozo de código:
+
+~~~
+continue
+~~~
+
+Para salir de una función:
+
+~~~
+return
+~~~
+
+### Ejemplo básico de debugar
+
+![Image](/home/marc/Desktop/debug1.png)
+
+Aqui se puede ver como dandole a step el código va avanzando linea a linea y
+asi puedes ver como se asignan las variables y va evaluando las condiciones.
+
+![Image](/home/marc/Desktop/debug2.png)
+
+Aqui en el elif ha entrado ya que el número era 10 y ha entrado dentro del elif incrementando positivos + 1
+
+![Image](/home/marc/Desktop/debug3.png)
+
+Aqui se ve como el código ha acabado dar una vuelta al while y vuelve a entrar.,
+
+## MarkDown y Atom
+
+### Instalación de plugins
+
+Lista de plugins que usamos para MarkDown:
+
+-   language-markdown
+-   markdown-pdf
+-   markdown-themeable-pdf
+-   markdown-preiew
+-   markdown-preview-plus
+
+Para instalar un plugin es tan fácil como entrar a las preferencias:
+~~~
+Edit>Preferences o Ctrl+,
+~~~
+
+Y en el apartado de Install buscas los nombres de los plugins anteriores y le
+das a Install.
+
+### language-markdown
+
+Este plugin ayuda a escribir documentos en markdown ya que te autocompleta en
+algunas cosas y remarca la sintaxis.
+
+### markdown-pdf
+
+Permite crear archivos pdf a partir de un mkd, ademas este mismo plugin puede
+convertir a png or jpge. Este plugin permite cambiar el tamaño de la hoja que
+se exportara en pdf y su borde. Puedes activar la opción para que se vean los
+emojis; Esta opción convierte :tagemoji: al icono en cuestión.
+
+Tipos de formato que permite:
+~~~
+A3, A4, A5, Legal, Letter, Tabloid
+~~~
+
+Para exportar:
+~~~
+Ctrl + shift + c
+~~~
+
+### markdown-themeable-pdf
+
+Permite hacer lo mismo que **markdown-pdf** y además puede exportar a html. Y
+permite modificar más opciones.
+Permite hacer listas de tareas, autoconvertir url a links. Entre más opciones
+que son para hacer cosas específicas.
+
+Para exportar:
+~~~
+Ctrl + Shift + e
+~~~
+
+### markdown-preview
+
+Permite visualizar a tiempo real el documento markdown. Este plugin lo
+proporciona el propio atom, pero hay que instalarlo.
+
+Para visualizar:
+~~~
+Ctrl + shift + M
+~~~
+
+### markdown-preview-plus
+
+Hace lo mismo que el **markdown-preview**. Pero en vez de proporcionarlo atom
+es un paquete de la comunidad es decir, recoge todo lo de atom mas
+caracteristicas que ha añadido la comunidad.
+
+Para utilizar este plugin es mejor tener desactivado el **markdown-preview**
+
+Para visualizar:
+~~~
+Crtl + Shift + M
+~~~
+
+## Control de versiones
+
+Atom tiene implementado un plugin para usar github pero yo prefiero otro llamado
+git-plus.
+
+### Cómo usar git-plus
+
+En la configuración del plugin puedes poner en que ruta se creará el repositorio
+local o dejarlo con el por defecto.
+
+Para hacer un status:
+
+~~~
+Cmd+Shift+A
+~~~
+
+Para hacer un commit:
+
+~~~
+Ctrl+Shift+X
+~~~
+
+Para hacer un add:
+
+~~~
+Cmd+Shift+A
+~~~
+
+Tiene muchas más funciones que se pueden consultar en la documentación llendo a
+Preferences>Packages y buscando git-plus.
+
+## Linters
+
+### Qué es un linter
+
+Un linter es una herramienta que nos ayuda a estructurar nuestro código
+siguiendo en base a sugerencias de la comunidad.
+
+### Instalación
+
+~~~
+Edit>Preferences>Install>'Search package'
+Buscamos: sonarlint
+~~~
+
+Mientras sonarlint se intala aparacen varias pestañas de otros plugin que se
+requieren instalar para usar este.
+Como *linter, busy signal, intentions, linter-ui-default*
+
+### Ventajas de usar un linter
+
+- Estandariza el código.
+- Aumentar la calidad del código.
+- Busca errores no solo de sintaxis, sino también para evitar futuros errores de sintaxis.
+- Facilita la lectura a otros programadores haciendoles más fácil leer el código.
+- Facilita el aprendizaje del lenguaje de programación.
+- Se evitan bucles infinitos
+- Evita nombres de constantes en minúsculas, else if i switch sin break.

@@ -1,0 +1,12 @@
+Tiendas:
+menorca 1
+bcn 3
+madrid 1
+ourense 1
+valencia 1
+
+Cajas:
+deluxe 1 box 15.99€/mes + 1 consulta al mes nutricionista
+premium 1 box 4.99€/mes
+standard 1 box 0€/mes
+3 meses pagados en plan prueba

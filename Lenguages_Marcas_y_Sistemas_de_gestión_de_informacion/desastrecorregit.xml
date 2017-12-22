@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO 10646" ?>
+<!-- <FIX nr="1">La declaració XML ha passat a la primera línia del document</FIX> Ademés he tret la segona declaració de versió y codificació-->
+
+<element>Un element sense etiquetes</element>
+<!-- <FIX nr="2">Afegida una etiqueta a l'element</FIX> -->
+
+<etiqueta>
+<!-- <FIX nr="3"><<etiqueta>></FIX> -->
+
+</etiqueta>
+<!-- <FIX nr="4">Etiqueta amb la obertura bé</FIX> -->
+
+<algo>
+  <![CDATA[
+  acta68badformed.xml:65: parser error : Opening and ending tag mismatch: temespendents line 64 and acta
+  </acta>
+    ^
+    acta68badformed.xml:67: parser error : Premature end of data in tag acta line 1
+
+    ^
+    ]]>
+</algo>
+<!-- <FIX nr="5">Afegit CDATA</FIX> -->
+
+<!--Comentari-->
+<!-- <FIX nr="6">Comentari corretgit</FIX> -->
+
+<root1>
+  <root2>
+
+  </root2>
+</root1>
+<!-- <FIX nr="7">Ficada la segona arrel com a filla de la primera</FIX> -->
+
+<etiqueta2>
+
+<etiqueta2/>
+<!-- <FIX nr="8">Ara l'etiqueta te tancament i no es repeteix amb una de més adalt</FIX> -->
+<!-- <FIX nr="9">Tancat la etiqueta bé <etiqueta/> </FIX> -->
+<etiqueta3>
+</etiqueta3>
+<!-- <FIX nr="10">Etiqueta ben tancada i ja no afecta al comentari</FIX> -->
+<chino>
+  妹妹背著洋娃娃
+  走到花園來看花
+  娃娃哭了叫媽媽
+  树上小鸟笑哈哈
+</chino>
+<!-- <FIX nr="11">Cambiar la versión de xml a una més nova per que pugui afagar lletres chinas o cambiar la codificació a ISO 10646</FIX> -->

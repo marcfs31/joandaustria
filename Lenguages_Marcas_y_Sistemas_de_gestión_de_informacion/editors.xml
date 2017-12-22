@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<editors_xml>
+  <editor nr="1">
+    <nom>Oxygen XML Editor</nom>
+    <enllaç>www.oxygenxml.com</enllaç>
+    <característiques>
+      <ressaltat-sintàctic disponible="si" />
+      <tancament-de-etiquetes disponible="si" />
+      <indentació-automàtica disponible="si" />
+      <numeració-de-línies disponible="si" />
+      <validació-contínua disponible="si" />
+      <representació-jeràrquica disponible="si" />
+      <representació-gràfica disponible="si" />
+    </característiques>
+    <plataformes>
+      <GNULinux disponible="si" />
+      <macOS disponible="si" />
+      <MSWindows disponible="si" />
+    </plataformes>
+    <llicencia>
+      De pagament però te una versió gratuita de 30 dias.
+    </llicencia>
+  </editor>
+  <editor nr="2">...</editor>
+  <valoració-personal>
+    Es el millor ja que es el que te més opcions de tots els que sortien a la wikipedia.
+  </valoració-personal>
+</editors_xml>
