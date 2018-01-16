@@ -1,0 +1,35 @@
+
+p {
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+h1,h2,h3 {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+td {
+    text-align: center;
+}
+
+#oculto {
+    border-top : hidden;
+    border-left: hidden;
+}
+
+li {
+    font-family: sans-serif;
+    font-size: 17px;
+}

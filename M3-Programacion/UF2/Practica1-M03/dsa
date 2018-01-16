@@ -1,0 +1,50 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+#Exercici 1. Triangles
+"""def triangle():
+	x=9
+	for n in range(10):
+		for i in range(x):
+			print "·",
+			
+		for i in range(x,9,1):
+			print i,
+		print 9,
+		
+		for i in range(8,x -1,-1):
+			print i,
+			
+		for i in range(x):
+			print "·",
+		x-=1
+		print ""
+
+num = int(input("Escriut un numero enter positiu: "))
+for i in range(num):
+    triangle()"""
+
+
+# Exercici 2: Un quadrat de nombres
+"""def cuadrat(num):
+    for i in range(num):
+        for j in range(1,num+1):
+            print j,
+        print ""
+
+cuadrat(int(raw_input(": ")))"""
+
+
+# Exercici 3. Un triangle de nombres
+
+def triangle(num):
+    for i in range(num):
+        res=""
+        for j in range(i):
+            if j == 0:
+                res = str(j+1) + "" + res
+            else:
+                res = str(j+1) + ", " + res
+        print res
+
+triangle(int(raw_input(": ")))
