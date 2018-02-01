@@ -4,7 +4,6 @@ public class Exercici4{
 		int dinero;
 		
 		int[] Billetes;
-        Billetes = new int[9];
 		
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		
