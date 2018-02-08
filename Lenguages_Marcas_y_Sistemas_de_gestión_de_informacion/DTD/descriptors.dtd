@@ -1,0 +1,6 @@
+<!ELEMENT descriptors (descriptor, descriptor, descriptor, descriptor+, conclusions)>
+<!ELEMENT descriptor (nom, link, exemple) >
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT exemple (#PCDATA)>
+<!ELEMENT conclusions (#PCDATA)>

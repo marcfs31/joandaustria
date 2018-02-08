@@ -1,0 +1,4 @@
+<!ELEMENT administrador (nom, (vim_user|nano_user)? )>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT vim_user EMPTY>
+<!ELEMENT nano_user EMPTY>
